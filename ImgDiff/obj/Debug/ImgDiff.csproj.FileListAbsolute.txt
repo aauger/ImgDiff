@@ -1,0 +1,5 @@
+C:\Users\austin\Documents\GitHub\ImgDiff\ImgDiff\bin\Debug\ImgDiff.exe.config
+C:\Users\austin\Documents\GitHub\ImgDiff\ImgDiff\bin\Debug\ImgDiff.exe
+C:\Users\austin\Documents\GitHub\ImgDiff\ImgDiff\bin\Debug\ImgDiff.pdb
+C:\Users\austin\Documents\GitHub\ImgDiff\ImgDiff\obj\Debug\ImgDiff.exe
+C:\Users\austin\Documents\GitHub\ImgDiff\ImgDiff\obj\Debug\ImgDiff.pdb
