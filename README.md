@@ -3,10 +3,10 @@ Functionally the same as what you'd get with ImageMagick, but simpler to use. Pr
 
 Input order matters, but the difference is probably not material.
 
-###Example
-####PNG:
+### Example
+#### PNG:
 ![First image](http://i.imgur.com/5zg6woY.png)
-####JPG:
+#### JPG:
 ![Second image](http://i.imgur.com/rx7Gc2m.jpg)
-####Diff:
+#### Diff:
 ![Diff image](http://i.imgur.com/k4TgjAf.png)
