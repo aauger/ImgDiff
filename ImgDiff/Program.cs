@@ -14,14 +14,20 @@ namespace ImgDiff
             int diffMult = 20;
 
             if (args.Length < 3)
+            {
                 Console.WriteLine("Usage: img1 img2 output [multiplier]");
+                Environment.Exit(1);
+            }
             if (args.Length == 4)
                 diffMult = int.Parse(args[3]);
 
             Bitmap fInput = (Bitmap)Image.FromFile(args[0]);
             Bitmap sInput = (Bitmap)Image.FromFile(args[1]);
             if (fInput.Width != sInput.Width || fInput.Height != sInput.Height)
+            {
+                Console.WriteLine("Images must be of the same dimensions");
                 Environment.Exit(1);
+            }
             Bitmap result = new Bitmap(fInput.Width, fInput.Height);
             String outputFn = args[2];
             if (!outputFn.ToLower().EndsWith(".png"))
